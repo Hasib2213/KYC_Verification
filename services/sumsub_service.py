@@ -281,7 +281,7 @@ class SumsubService:
             raise
     
     def upload_id_document(self, applicant_id: str, file_path: str, 
-                          doc_type: str = "IDENTITY", country: str = "BD") -> Dict[str, Any]:
+                          doc_type: str = "IDENTITY", country: str = "IT") -> Dict[str, Any]:
         """
         Upload ID document via official API
         POST /resources/applicants/{applicantId}/info/idDoc

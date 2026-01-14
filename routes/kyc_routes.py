@@ -104,7 +104,7 @@ async def verify_kyc(applicant_id: str, doc_type: str = "IDENTITY", db: Session 
 # ==================== DOCUMENT UPLOAD ====================
 @router.post("/applicants/{applicant_id}/documents/id", response_model=DocumentVerificationResponse)
 async def upload_id_document(applicant_id: str, file: UploadFile = File(...), 
-                            country: str = "BD", db: Session = Depends(get_db)):
+                            country: str = "IT", db: Session = Depends(get_db)):
     """Upload ID document for verification"""
     try:
         import tempfile
