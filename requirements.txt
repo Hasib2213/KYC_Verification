@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic>=2.0
+python-dotenv
+requests
+httpx
+python-multipart
+pydantic[email]
+sqlalchemy>=2.0
+psycopg2-binary
+alembic
